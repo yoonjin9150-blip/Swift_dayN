@@ -13,6 +13,7 @@ import SwiftData
 class Movie {
     var title: String
     var releaseDate: Date
+    var favoritedBy = [Friend]()
 
 
     init(title: String, releaseDate: Date) {
